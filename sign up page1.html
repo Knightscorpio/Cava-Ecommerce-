@@ -1,0 +1,33 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up Page</title>
+    <link rel="stylesheet" href="signup1.css">
+</head>
+<body>
+    <form action="signup.php" method="get"></form>
+    <div class="signup">
+        <img class="fin" src="/Users/user/Downloads/11111111111-removebg-preview.png" alt="fingerprint" width="90px" height="90px"><br>
+       <label for="text"></label>
+        <input type="text" id="name" placeholder="Your name"><br><hr>
+        <label for="text"></label>
+        <input type="text" id="email" placeholder="E-mail address"><br><hr>
+        <label for="text"></label>
+        <input type="text" id="password" placeholder="Password"><br><hr>
+        <button id="submit" type="submit" class="sign" onclick="show();">Sign up</button><br>
+        <p> By creating an account, you agree and accept<br> our <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p><br><hr>
+        <h4>Already have an account? <a href="#">Log in</a></h4>
+
+        <P id="popup" style="display: none;">
+            Welcome 
+            <span id="popname"></span>
+        </P>
+        </div>
+
+
+</form>
+</body>
+<script src="./signup.js"></script>
+</html>

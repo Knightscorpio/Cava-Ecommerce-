@@ -1,0 +1,128 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/e7/c5/92/e7c592b6149051ec2750982f725fc19b.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    width: 100%;
+    background: transparent;
+    justify-content: space-around;
+    align-items:flex-end;
+    height: 40px;
+    background-color: bisque;
+    flex: 2;
+}
+.logo-container{
+    display: inline;
+    justify-content:left;
+    text-decoration: none;
+    height: 30px;
+    width: 6px;
+    margin: 2px 0px 5px 5px;
+}
+.span{
+    margin: 0px 2px 2px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    animation: span 10s ease-in 1s;
+    display: flex;
+}
+h4{
+    display: inline-block;
+    justify-content:left;
+    padding: 0px 10px 10px 5px;
+    margin: 0%;
+    font-size: larger;
+}
+.Earth{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(249, 242, 242);
+    font-size: 90px;
+
+}
+.Earth:hover{
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+}
+.Life{
+    color: aqua;
+    bottom: 30px;
+    font-family:fantasy;
+    margin:1px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-links, ul{
+   text-decoration: none;
+   display:inline;
+   flex: 1;
+   text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    padding: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    justify-content: space-between;
+}
+a:hover{
+    background-color: rgb(10, 11, 11);
+    border-radius: 10px;
+    height: 2px;
+    width: 5px;
+}
+main{
+    text-align: center;
+    margin: 17%;
+}
+h4{
+    color: black;
+    display: flex;
+    transform: rotateZ(50'angle');
+}
+footer{
+    color:white;
+    position: relative;
+    align-items: baseline;
+
+}
+h1{
+    color: white;
+    align-items: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    justify-content: space-around ;
+}
+p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 10px;
+    bottom: 10px;
+}
+marquee{
+    font-weight: 100;
+    font-family: fantasy;
+    font-size: small;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: 27px;
+    border-style: none;
+}

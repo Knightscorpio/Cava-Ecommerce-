@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    background-color: chocolate;
+
+}
+
+header {
+    border: 5px solid red;
+    align-items: center;
+    width: fit-content;
+    align-content: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#container {
+    margin-top: 5%;
+    margin-left: 40%;
+    
+    
+}

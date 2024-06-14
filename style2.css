@@ -1,0 +1,113 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/8c/c1/ee/8cc1eef4ece80c25ea8aab2a7c8cd02d.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 5px;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding: 10px;
+    flex:3;
+    textarea::content;
+    text:content;
+}
+a:hover{
+    background-color: rgb(239, 235, 235);
+    border-radius: 10px;
+    color: red;
+}
+nav{
+    flex: 3;
+    justify-content: flex-start;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    margin: 30px;
+}
+.nav-link{
+    color: rgb(240, 233, 233);
+    font-size: 15px;
+    text-decoration: none;
+    width: auto;
+}
+.nav, .nav-link, .nav-links{
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    padding: 10px;
+}
+li{
+    justify-content: space-around;
+    padding-right: 20px;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+.reg{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    padding:2px;
+    text-align: center;
+    height: 38px;
+}
+main{
+    padding: 10px;
+    margin: 2px;
+    text-align: justify;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    justify-content: left;
+    padding: 15px;
+    margin: 70px 3px 3px 50px;
+    color: white;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    font-size: 15px;
+    padding: 4px 4px 2px 70px;
+    color: white;
+}
+h4{
+    padding: 15px;
+    margin: 60px;
+    font-size: 20px;
+}
+.Portfo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px
+}
+.lio{
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 15px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 5px;
+    margin: 2px 10px 5px 10px;
+    text-align: justify;
+}
+.Hire{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content:center;
+    padding: 10px 20px 25px 20px;
+    margin: 5px 3px 3px 60px;
+    border-radius: 7px;
+    width: 100px;
+    height: 12px;
+    text-align: center;
+    border-color: none;
+}
+
+

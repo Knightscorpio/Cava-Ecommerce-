@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    list-style-type: none;
+    background: flexible;
+    width: 100%;
+    background: transparent;
+    margin-top: 20px;
+    position: static;
+    margin-bottom: 30px;
+
+}
+h4{
+    color: green;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 25px;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding-right: 60px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.cart{
+    background-color: green;
+    color: white;
+    left: 20px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    margin-left: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+body{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.rec{
+    display: inline;
+    margin-left: 10px;
+}
+.jumbo{
+    display: inline;
+}
+h1{
+    margin-top: 10%;
+    margin-left: 10px;
+    flex: 1;
+    display: inline;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+body section{
+    display: inline;
+    grid-template-columns: 1;
+}
+.but{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+.cont{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    position: absolute;
+
+}
+.first{
+    margin-right: 10px;
+    height: 100px;
+    width: 700px;
+}
+.second{
+    margin-right: 5px;
+    height: 100px;
+    width: 700px;
+}
+.third{
+    margin-right: 10px;
+    height: 100px;
+    width: 700px;
+}
+.tap{
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.tap td{
+    padding: 10px;
+}
+table{
+    border: 1px solid rgb(164, 175, 175);
+    border-radius: 10px;
+    margin-top: 10px;
+}

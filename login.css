@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(31, 146, 199) ;
+}
+.square{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 10%;
+    bottom: 5%;
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    text-align: justify;
+    border-radius: 5px;
+}
+h2{
+    color: rgba(0, 153, 255, 0.896);
+    margin-left: 7%;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    margin-left: 7%;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    margin-left: 7%;
+    color: rgba(37, 29, 29, 0.479);
+    margin-top: 2px;
+}
+label{
+    margin-left: 7%;
+    height: 10px;
+    margin-top: 10px;
+}
+::placeholder{
+    color: rgba(0, 153, 255, 0.896);
+    font-weight:bold;
+}
+input{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
+.t{
+    margin-left: 32px;
+}
+#checkbox{
+    margin-left: 7%;
+    width: 20px;
+    height: 10px;
+}
+#remember{
+    margin-left: 1px;
+    margin-top: 20px;
+    justify-content: space-around;
+    color: rgba(37, 29, 29, 0.479);
+}
+span{
+    margin-left: 167px;
+    color: rgba(37, 29, 29, 0.479);
+}
+button{
+    margin-left: 7%;
+    height: 35px;
+    margin-top: 30px;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color: rgba(0, 153, 500, 0.896);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.Signup{
+    border-color: rgba(31, 84, 200, 0.459);
+    background-color: white;
+    color: rgba(0, 153, 500, 0.896);
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    list-style: none;
+    color: rgba(37, 29, 29, 0.479);
+    list-style-type: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 7%;
+    padding: 0%;
+    margin-top: 60px;
+    padding-right: 10px;
+}
+li{
+    margin: 10px;
+}
+.Or{
+    color: rgba(37, 29, 29, 0.479);
+}
+.google, .facebook, .linkedin{
+    color: rgba(0, 153, 300, 0.896);
+    font-weight: bold;
+}
+img{
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    left: 20px;
+    border-radius: 1px;
+    border:none;
+    display: flex;
+    margin-top: 5px;
+    right: 20px;
+    align-items: center;
+
+}

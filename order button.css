@@ -1,0 +1,35 @@
+
+.tap:before, .tap:after{
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 100%;
+    width: 14%;
+    height: 6px;
+    background: green;
+    transform: scaleX(0);
+    transform-origin: 0 100%;
+}
+.tap::after{
+    left: 19%; width: 66%;
+}
+.tap.s--reverting
+.tap_revert-line{
+    opacity: 1;
+    transform: scaleX(0);
+    transition: transform 0.864s;
+}
+@-webkit-keyframes tiltAnim{
+    8%, 24%{ transform: rotate(0);
+    }
+    35%, 70% { transform: rotate(8deg);
+    }
+    85% { transform: rotate(-4deg);
+    }
+    95%, 100% {transform: rotate(0);
+    }
+}
+.tap_text-dots:before
+.tap_text-dots:after{
+    content: "."; opacity: 0;;
+}

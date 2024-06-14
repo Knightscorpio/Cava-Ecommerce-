@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    list-style-type: none;
+    background: flexible;
+    width: 100%;
+    background: transparent;
+    margin-top: 20px;
+    position: static;
+    margin-bottom: 40px;
+
+}
+h4{
+    color: green;
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 25px;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding-right: 60px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.cart{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.jumbo{
+    margin-left: 5%;
+    
+}
+.bod{
+    display: flex;
+    align-items:baseline;
+    margin-bottom: 15px;
+}
+h1{
+    margin-right: 30px;
+}
+.default{
+    margin-left: 55%;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+.az{
+    margin-right: 10px;
+    border-radius: 15px;
+    height: 25px;
+    width: 50px;
+    background-color: transparent;
+}
+.list{
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 70px;
+    height: 25px;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+}
+.toma{
+    padding-right: 40px;
+    height: 120px;
+    height: 200px;
+    border: 1px solid rgb(232, 235, 235);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.ging{
+    padding-right: 40px;
+    height: 120px;
+    height: 200px;
+    border: 1px solid rgb(232, 235, 235);
+    padding-right: 10px;
+}

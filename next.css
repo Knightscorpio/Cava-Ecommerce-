@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    border: 1px solid green;
+    align-items: center;
+    height: 50px;
+}
+h3{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    justify-content: left;
+    text-align: start;
+    margin-left: 20px;
+    font-size: 30px;
+}
+nav{
+    margin-left: 55%;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    display: flex;
+    margin-right: 60px;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-around;
+    
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    background-color: lightgreen;
+}
+h2{
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    margin-top: 10px;
+    margin-left: 35%;
+    color: rgb(63, 58, 58);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+main{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+}
+main div{
+    width: 80%;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+main img{
+    margin-left: 20px;
+    width: 20%;
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    text-justify: auto;
+    font-size: large;
+    font-size: 27px;
+    font-family:'Times New Roman', Times, serif;
+    align-self: auto;
+}
+div button{
+    margin-left: 50px;
+}
+button{
+    background-color: rgb(48, 212, 48);
+    color: white;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}

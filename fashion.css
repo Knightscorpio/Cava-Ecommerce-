@@ -1,0 +1,160 @@
+body{
+    background-color: white;
+}
+.run{
+    background: rgb(236, 13, 13);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 40px;
+}
+.run1{
+    background: rgb(236, 13, 13);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+.run2{
+    background: rgb(236, 13, 13);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
+.square{
+    background-color: white;
+    border-radius: 1;
+    border: red;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    right: 12px;
+    bottom: 1px;
+    height: 60%;
+    width: 68%;
+}
+header{
+    height:50px;
+    background: transparent;
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+    padding: 2px;
+}
+
+.make{
+    display:flex;
+    align-items: center;
+    padding-right: 10px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.make-link{
+    margin: 5px;
+    padding: 2px;
+    
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    width: 20px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+.tags, .three{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 10px;
+}
+.three{
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.search{
+    margin-left: 50px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.cart{
+    margin-left: 0px;
+    margin-right: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.close{
+    margin-left: 17px;
+    padding: 10px;
+    height: 5px;
+}
+a:hover{
+    color:red;
+    background: transparent;
+}
+main{
+    display: flex;
+}
+.imgg{
+    position: absolute;
+    height: 87%;
+    width: 53%;
+    border-radius: 1px;
+    border:none;
+    margin-left: 40%;
+    display: inline;
+    margin-top: 5px;
+
+}
+.film{
+    display:table-column;
+    text-align: center;
+    list-style: none;
+    margin-left: 0px;
+    padding-right: 0px;
+    orientation:grid-column;
+}
+h1{
+    display: inline;
+    margin-left: 120px;
+    margin-top: 90px;
+    font-size: 45px;
+    text-align:left;
+    margin-bottom: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    margin-top: -80px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    color: black;
+    background: transparent;
+    border-style:double;
+    
+}
+span{
+    color: red;
+    background: transparent;
+}
